@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    background-color: #2c2c2c;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+#header {
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    transform: translateX(-50%);
+
+    font-size: 200%;
+}
+
+/* color classes
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+*/
+
+/* other elements */
+#equation-container {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-25%, -50%);
+
+    font-size: 500%;
+}
+
+#equation-answer {
+    width: 15%;
+    font-size: 90%;
+
+    /* right: 0; */
+}
+
+#score-counter {
+    position: absolute;
+    left: 50%;
+    top: 99%;
+
+    transform: translate(-50%, -100%);
+}
+
+#truthfulness-indicator {
+    position: absolute;
+    left: 50%;
+    top: 56%;
+
+    transform: translateX(-50%);
+}
